@@ -3,19 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplicationdemo;
+package inheritance;
 
 /**
  *
  * @author Lenovo-PC
  */
-public class JavaApplicationDemo {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        System.out.println("demo");
-    }
+public class Teacher extends Person {
     
+    public double pensiya;
+    
+    public Teacher(){
+        super("");
+    }
 }
